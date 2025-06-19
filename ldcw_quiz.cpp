@@ -108,13 +108,13 @@ int main() {
     if (answer == 'c') score++;
 
     cout << "\n10. How often should you change your passwords?\n";
-    cout << "A. Only when you forget them\n";
-    cout << "B. Every few months or after a breach\n";
+    cout << "A. Every few months or after a breach\n";
+    cout << "B. Only when you forget them\n";
     cout << "C. Never\n";
     cout << "D. Every week\n";
     cout << "Your answer: ";
     answer = getValidatedAnswer();
-    if (answer == 'b') score++;
+    if (answer == 'a') score++;
 
     cout << "\nYou scored " << score << "/10.\n";
 
